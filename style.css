@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 1px;
+  padding: 2%;
+  box-sizing: content-box;
+  font-family: "poppins", sans-serif;
+}
+div {
+  justify-content: center;
+}
+body {
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-abstracto-blanco_23-2148833155.jpg?w=740&t=st=1695657474~exp=1695658074~hmac=ff891bbc786b117e89e18d410e78f4a59269e27ede9ab7c4b0bf8bfc122fc921);
+  border: 1px;
+  display: flexbox;
+  justify-content: left;
+  align-items: center;
+  margin: auto;
+}
+
+legend {
+  position: relative;
+  width: 15%;
+  max-width: 1000px;
+  min-height: 100px;
+  background: #8290be;
+  margin: 60px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
